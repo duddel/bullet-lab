@@ -2,7 +2,7 @@
 
 In this experiment, we compile `Bullet` Physics (v2.89) into a C++ executable and run a simple test program.
 
-The `Bullet` source code is not provided in this repository, but cloned during the build step. This is done by CMake with `ExternalProject`, see: [CMakeLists.txt](CMakeLists.txt).
+The `Bullet` source code is not provided in this repository, but cloned during the CMake configure step. This is done by CMake with `ExternalProject`, see: [bullet-clone.cmake](bullet-clone.cmake) and [CMakeLists.txt](CMakeLists.txt).
 
 Configure, build and test via CMake (v3.6+), like so:
 
